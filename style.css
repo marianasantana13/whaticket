@@ -1,0 +1,194 @@
+
+form {
+    position:absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 610px;
+    height: 705px;
+    left: 960px;
+    top: calc(50% - 705px/2 + 44.5px);
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 69px -34px #172b67;
+    border-radius: 30px;
+    position:fixed;
+    }
+
+#empresa {
+width: 453px;
+height: 67px;
+left: 1038px;
+top: 277px;
+background: #F0F0F0;
+border-radius: 38.5px;
+border: none;
+}
+
+#nombre {
+width: 453px;
+height: 67px;
+left: 1038px;
+top: 363px;
+background: #F0F0F0;
+border-radius: 38.5px;
+border: none;
+}
+
+#correo {
+width: 453px;
+height: 67px;
+left: 1038px;
+top: 449px;
+border: none;
+background: #F0F0F0;
+border-radius: 38.5px;
+}
+
+#celular {
+width: 453px;
+height: 67px;
+left: 1038px;
+top: 535px;
+border: none;
+background: #F0F0F0;
+border-radius: 38.5px;
+}
+
+#contrasena {
+    width: 453px;
+    height: 67px;
+    left: 1038px;
+    top: 621px;
+    background: #F0F0F0;
+    border-radius: 38.5px;
+    border: none;
+}
+
+button {
+    width: 242px;
+    height: 59px;
+    left: 1144px;
+    top: 724px;
+    background: #5888FF;
+    box-shadow: 0px 9px 13px -3px rgba(32, 97, 173, 0.28);
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.49px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+}
+
+p {
+    left: 53.07%;
+    right: 21.3%;
+    top: 81.67%;
+    bottom: 11.2%;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: #898989;
+}
+
+::placeholder{
+width: 75px;
+height: 33px;
+left: 1069px;
+top: 297px;
+padding: 30px;
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-size: 18px;
+line-height: 33px;
+color: #898989;
+font-weight: 600;
+}
+
+h1 {
+left: 2.01%;
+right: 25.08%;
+top: 7.63%;
+bottom: 61.86%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+color: #2C3244;
+
+}
+
+#logotipo{
+position: absolute;
+width: 598px;
+height: 236px;
+left: 216px;
+top: 359px;
+}
+
+#registro{
+    width: 463px;
+    height: 56px;
+    left: 1028px;
+    top: 171px;
+}
+
+#iniciar {
+width: 463px;
+height: 56px;
+background: #FFFFFF;
+box-shadow: 0px 4.40895px 24.2492px -9.92013px #425FA7;
+border-radius: 110.224px;
+left: 1028px;
+top: 171px;
+transform: translate(0px, -35px);
+}
+
+#iniciar-sesion{
+position: absolute;
+left: 51.62%;
+right: 3.89%;
+top: 10.71%;
+bottom: 10.71%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 27.5559px;
+line-height: 118.7%;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #A19EFF;
+}
+#iniciar-inner {
+    width: 229px;
+    height: 56px;
+    background: #A19EFF;
+    border-radius: 110.224px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.5559px;
+    line-height:50px;
+    color: #FFFFFF;
+    text-align: center;
+    
+    
+}
