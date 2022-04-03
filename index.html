@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
@@ -21,41 +22,46 @@
 </head>
 
 <body>
-    <box id="logotipo">
-        <h1>Empieza con</h1>
-        <img src="logo 1.svg" alt="Logo" />
-    </box>
 
+     <p id="inicio"> ◁ Volver al inicio</p>
+    <!-- <<< LOGOTIPO >>> -->
+    <div id="logotipo">
+        <h1>Empieza con</h1>
+        <img src="logo 1.svg" alt="Logo" id="logotipo-completo" />
+    </div>
+
+    <!-- << IMAGENS >>  -->
     <object type="image/svg+xml" data="vector1.svg" class="vector1" style="transform:rotate(360deg)"></object>
     <object type="image/svg+xml" data="vector2.svg" class="vector2"></object>
     <object type="image/svg+xml" data="o2 6.svg" class="img-baixo" style="transform:rotate(360deg)"></object>
+    <object type="image/svg+xml" data="o1 3.svg" class="img-lateral" style=></object>
 
 
+    <!-- <<< FORMULARIO >>> -->
+    <form class="form">
 
-    <box id="Lateral">
-        <img src="o1 3.svg" class="img-lateral" />
-    </box>
-        <div class="form">
-            <form id="register-form">
-                <div id="iniciar">
-                    <div id="iniciar-inner">Registrarse</div>
-                    <div id="iniciar-sesion">Iniciar sesíon</div>
-                </div>
-
-                <input id="empresa" type="text" placeholder="Empresa">
-                <input id="nombre" type="text" placeholder="Nombre">
-                <input id="correo" type="text" placeholder="Correo">
-                <input id="celular" type="email" placeholder="Celular">
-                <input id="contrasena" type="email" placeholder="Contraseña">
-                <br>
-                <button>Registrarme</button>
-                <p>Añ registrarte estas de acuerdo con nuestros
-                    <br>
-                    <u><b>Terminos y condiciones.</b></u>
-                </p>
-            </form>
-
+        <!-- << LAYOUT INICIO >> -->
+        <div id="iniciar">
+            <div id="iniciar-inner">Registrarse</div>
+            <div id="iniciar-sesion">Iniciar sesíon</div>
         </div>
+        <!-- << PREENCHIMENTO >> -->
+        <input id="empresa" type="text" placeholder="Empresa">
+        <input id="nombre" type="text" placeholder="Nombre">
+        <input id="correo" type="text" placeholder="Correo">
+        <input id="celular" type="email" placeholder="Celular">
+        <input id="contrasena" type="email" placeholder="Contraseña">
+        <!-- << PULAR LINHA >> -->
+        <br>
+        <!-- << BOTÃO REGISTRO >> -->
+        <button>Registrarme</button>
+        <p>Añ registrarte estas de acuerdo con nuestros
+            <br>
+            <u><b>Terminos y condiciones.</b></u>
+        </p>
+    </form>
+
+    <p id="tarja">Copyright © Whaticket 2022</p>
 </body>
 
 </html>

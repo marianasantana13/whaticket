@@ -1,12 +1,16 @@
+/* // FORMULARIO BOTOES E TEXTO  */
+
 form {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 610px;
-    height: 705px;
-    left: 960px;
+    width: 38em;
+    height: 44em;
+    left: 60em;
+    margin-top: 25em;
+    margin-right: -30em;
     top: calc(50% - 705px/2 + 44.5px);
     float: right;
     background: #FFFFFF;
@@ -15,7 +19,8 @@ form {
 }
 
 body {
-background: #E5E5E5;
+max-width: 1920px;
+max-height: 982px;
 }
 
 button {
@@ -52,6 +57,43 @@ p {
     color: #898989;
 }
 
+p#inicio {
+position: absolute;
+left: -.23%;
+right: 80.1%;
+top: 10.46%;
+bottom: 79.63%;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180.7%;
+text-align: center;
+text-decoration-line: underline;
+
+color: #898989;
+
+}
+
+p#tarja{
+    position: absolute;
+    left: 34.06%;
+    right: 42.81%;
+    top: 94.3%;
+    bottom: -0.2%;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180.7%;
+    
+    text-align: center;
+    
+    color: #898989;
+}
+
 h1 {
     left: 2.01%;
     right: 30px;
@@ -66,6 +108,65 @@ h1 {
     margin: 2px;
     text-indent: 20px;
 }
+
+
+/* // LAYOUT INICIO */
+
+#registro {
+    width: 463px;
+    height: 56px;
+    left: 1028px;
+    top: 171px;
+}
+
+#iniciar {
+    width: 463px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4.40895px 24.2492px -9.92013px #425FA7;
+    border-radius: 110.224px;
+    left: 1028px;
+    top: 171px;
+    transform: translate(0px, -35px);
+}
+
+#iniciar-sesion {
+    position: absolute;
+    left: 51.62%;
+    right: 3.89%;
+    top: 10.71%;
+    bottom: 10.71%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.5559px;
+    line-height: 118.7%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #A19EFF;
+}
+
+#iniciar-inner {
+    width: 229px;
+    height: 56px;
+    background: #A19EFF;
+    border-radius: 110.224px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.5559px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+/* // PREENCHIMENTO */
 
 #empresa {
     width: 453px;
@@ -133,24 +234,22 @@ h1 {
 }
 
 
+/* // IMAGENS */
 
 #logotipo {
-position: absolute;
-width: 598px;
-height:300px;
-left: 500px;
-top: 600px;
-align-items: center;
-
+    position: absolute;
+    width: 598px;
+    height: 300px;
+    left: 500px;
+    top: 600px;
+    align-items: center;
 }
 
 
 
 .img-lateral {
-    transform: rotate(-360deg);
-    float: right;
-    width: 780px;
-
+float: right;
+margin-right: -927px;
 }
 
 .vector1 {
@@ -162,75 +261,58 @@ bottom: 81.65%;
 transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
+
+.vector2 {
+left: 0.1%;
+right: 78.23%;
+top: 15.17%;
+bottom: 69.57%;
+ order: 0.764886px solid #2C3244;
+transform: matrix(1, 0, 0, -1, 0, 0);
+transform: rotate(0);
+}
+
 .img-baixo {
 position: absolute;
+padding-top: 18em;
 width: 628px;
 height: 178.68px;
 left: -33px;
-top: 1270px;
-
+top: 983.68px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-#registro {
-    width: 463px;
-    height: 56px;
-    left: 1028px;
-    top: 171px;
+/* // RESPONSIVIDADE */
+
+@media (max-width: 460px) {
+
+form {
+width: 50%;
 }
 
-#iniciar {
-    width: 463px;
-    height: 56px;
-    background: #FFFFFF;
-    box-shadow: 0px 4.40895px 24.2492px -9.92013px #425FA7;
-    border-radius: 110.224px;
-    left: 1028px;
-    top: 171px;
-    transform: translate(0px, -35px);
-}
-
-#iniciar-sesion {
-    position: absolute;
-    left: 51.62%;
-    right: 3.89%;
-    top: 10.71%;
-    bottom: 10.71%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27.5559px;
-    line-height: 118.7%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #A19EFF;
-}
-
-#iniciar-inner {
-    width: 229px;
-    height: 56px;
-    background: #A19EFF;
-    border-radius: 110.224px;
-    left: 0px;
-    top: 0px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27.5559px;
-    line-height: 50px;
-    color: #FFFFFF;
-    text-align: center;
+    h1 {
+        width: 7.300em;
+        height: 1.867em;
+        left: 1.300em;
+        top: 2.800em;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.000em;
+        line-height: 133%;
+        color: #2C3244;
+    }
+    
+    body {
+        width: 375px;
+        height: 761px;
+        background: #FFFFFF;
+    }
 
 
+div#logotipo{
+padding-top: 5em;
 }
 
 
-@media (max-width: 1367px) {
-body {
-max-width: 100%;
-max-height: 100%;
-}
 }
